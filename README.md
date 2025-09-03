@@ -1,42 +1,29 @@
-# Portfolio Blog Starter
+# Thi Minh Nguyet Duong – Portfolio
 
-This is a porfolio site template complete with a blog. Includes:
+Welcome to my personal portfolio! 🎉  
+This site showcases my projects, skills, and journey as a Computer Science student passionate about full-stack development and data-driven solutions.
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
+## What you'll find here
 
-## Demo
+- **A collection of my featured projects:**
+  - Course Management System – a full-stack learning platform
+  - Vinylify – digital vinyl collection with RFID scanning
+  - Real Estate Analytics – data pipeline with Airflow & Azure
+  - Chatbot Integration – built for CCV Belgium
+  - ApplyWise – job application tracking system
+- **An interactive homepage** with an About Me section and links to my resume, LinkedIn, and GitHub
 
-https://portfolio-blog-starter.vercel.app
+## Tech Stack
 
-## How to Use
+This portfolio is built with:
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS
+- **Deployment:** Vercel
 
-You can choose from one of the following two methods to use this repository:
+## Contact
 
-### One-Click Deploy
+If you'd like to connect or collaborate:
+- **Email:** nguyet.tm.duong@gmail.com
+- **LinkedIn:** [linkedin.com/in/tmnduong](https://linkedin.com/in/tmnduong)
+- **Portfolio Website:** [Your Portfolio URL]
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
-
-```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
-
-Then, run Next.js in development mode:
-
-```bash
-pnpm dev
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+✨ Feel free to explore, fork, or star this repo. Thanks for stopping by!

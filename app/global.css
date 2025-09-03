@@ -148,3 +148,9 @@ table {
 .title {
   text-wrap: balance;
 }
+
+/* Vertical text for About label */
+.writing-mode-vertical-rl {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}

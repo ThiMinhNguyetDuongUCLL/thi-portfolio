@@ -17,45 +17,50 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="/rss"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/vercel/next.js"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
-          </a>
-        </li>
-      </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} MIT Licensed
-      </p>
+    <footer className="px-6 md:px-12 lg:px-24 xl:px-32 py-16 border-t border-neutral-200 dark:border-neutral-800">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-8">
+        <div>
+          <p className="text-neutral-600 dark:text-neutral-400">
+            © {new Date().getFullYear()} Thi Minh Nguyet Duong. All rights reserved.
+          </p>
+        </div>
+
+        <ul className="flex flex-col space-y-2 text-neutral-600 md:flex-row md:space-x-6 md:space-y-0 dark:text-neutral-400">
+          <li>
+            <a
+              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://linkedin.com/in/tmnduong"
+            >
+              <ArrowIcon />
+              <p className="ml-2 h-7">linkedin</p>
+            </a>
+          </li>
+          <li>
+            <a
+              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/ThiMinhNguyetDuongUCLL"
+            >
+              <ArrowIcon />
+              <p className="ml-2 h-7">github</p>
+            </a>
+          </li>
+          <li>
+            <a
+              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="mailto:nguyet.tm.duong@gmail.com"
+            >
+              <ArrowIcon />
+              <p className="ml-2 h-7">email</p>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   )
 }

@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     default: 'Next.js Portfolio Starter',
     template: '%s | Next.js Portfolio Starter',
   },
-  description: 'This is my portfolio.',
+  description: 'This is Thi\'s portfolio showcasing projects and work.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Thi\'s Portfolio',
+    description: 'This is Thi\'s portfolio showcasing projects and work.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Thi\'s Portfolio',
     locale: 'en_US',
     type: 'website',
   },
@@ -52,14 +52,16 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+      <body className="antialiased">
+        <div className="min-h-screen flex flex-col">
           <Navbar />
-          {children}
+          <main className="flex-1">
+            {children}
+          </main>
           <Footer />
           <Analytics />
           <SpeedInsights />
-        </main>
+        </div>
       </body>
     </html>
   )
