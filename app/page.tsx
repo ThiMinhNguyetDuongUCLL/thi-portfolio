@@ -22,7 +22,7 @@ export default function Page() {
 
             <div className="space-y-6 text-neutral-600 leading-relaxed max-w-4xl">
               <p className="text-lg">
-                I'm a Computer Science student with big dreams and an even bigger coffee addiction. My mission? To become a top-notch IT expert and code my way to a brighter, tech-savvy future. I'm on an epic journey of learning and growth, fueled by a passion for developing software that makes a real difference.
+                Hi, I'm Thi. I'm a final-year Computer Science student with big dreams and an even bigger coffee addiction. My mission? To become a top-notch IT expert and code my way to a brighter, tech-savvy future. I'm on an epic journey of learning and growth, fueled by a passion for developing software that makes a real difference.
               </p>
 
               <p className="text-lg">
